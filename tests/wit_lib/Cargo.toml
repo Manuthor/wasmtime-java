@@ -1,0 +1,13 @@
+[package]
+authors = [
+  "Manuthor <manu.coste@gmail.com>",
+]
+edition = "2018"
+name = "wit_lib"
+version = "0.1.0"
+
+[lib]
+crate-type = ['cdylib']
+
+[dependencies]
+wit-bindgen-rust = {git = 'https://github.com/bytecodealliance/wit-bindgen', rev = '2c4ec937cab8c23131d644d2fcaf4705a08f9b01'}

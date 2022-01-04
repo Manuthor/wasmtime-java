@@ -1,0 +1,9 @@
+record Abc {
+    uid: string
+}
+
+play_with_struct: function(abc: Abc) -> Abc
+
+play_with_bytes: function(plaintext: list <u8>) -> list <u8>
+
+play_with_result: function(plaintext: list <u8>) -> expected <list <u8>, string>
